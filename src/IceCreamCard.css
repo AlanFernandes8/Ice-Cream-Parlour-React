@@ -1,0 +1,31 @@
+.ice-cream-card {
+    border: 1px solid #ccc;
+    border-radius: 24px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    transition: transform 0.3s;
+    background-color: rgb(247, 217, 237);
+}
+
+.ice-cream-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.out-of-stock {
+    color: red;
+    font-weight: bold;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    border-radius: 12px;
+}
+
+
+.ice-cream-card input{
+    color: rgba(57, 55, 55, 0.87);
+    background-color: #f7f2e6;
+}

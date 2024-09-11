@@ -1,0 +1,10 @@
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.ice-cream-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
